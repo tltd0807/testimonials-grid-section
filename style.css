@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+  background-color: hsl(210, 46%, 95%);
+  /* min-height: 100vh; */
+}
+
+.card {
+  background-color: white;
+  margin: 20px;
+  padding: 20px 30px 30px 25px;
+  border-radius: 7px;
+  color: hsl(217, 19%, 35%);
+  box-sizing: border-box;
+}
+.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.author-img {
+  border-radius: 50%;
+  width: 1.7rem;
+  border: 0.15rem solid hsla(263, 55%, 52%, 0.403);
+  margin-right: 20px;
+}
+.author-info .author-sub {
+  margin-top: 2px;
+  opacity: 0.5;
+  font-size: 11px;
+}
+.card-title {
+  width: 99%;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.card-content {
+  line-height: 1.2rem;
+  width: 90%;
+  opacity: 0.7;
+}
+.card:nth-of-type(1) {
+  background-color: blueviolet;
+  background: right 15% top no-repeat blueviolet
+    url("./images/bg-pattern-quotation.svg");
+}
+.card:nth-of-type(2) {
+  background-color: hsl(217, 19%, 35%);
+}
+.card:nth-of-type(4) {
+  background-color: hsl(219, 29%, 14%);
+}
+.card:nth-of-type(1),
+.card:nth-of-type(2),
+.card:nth-of-type(4) {
+  color: white;
+}
+.attribution {
+  width: 100%;
+  text-align: center;
+}
